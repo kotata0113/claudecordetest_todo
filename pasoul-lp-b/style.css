@@ -15,7 +15,7 @@
   --magenta: #ff5b96;
   --peach: #ffb89c;
   --violet: #8a6cff;
-  --gradient: linear-gradient(135deg, #3dd9c6 0%, #8a6cff 35%, #ff5b96 70%, #ffb89c 100%);
+  --gradient: linear-gradient(135deg, #3dd9c6 0%, #8a6cff 50%, #ff5b96 100%);
   --gradient-soft:
     radial-gradient(ellipse 70% 60% at 15% 10%, rgba(61,217,198,0.35), transparent 60%),
     radial-gradient(ellipse 60% 50% at 100% 30%, rgba(255,91,150,0.32), transparent 60%),
