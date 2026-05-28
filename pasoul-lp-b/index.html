@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PASOUL POP UP STORE — アクロスモール新鎌ヶ谷</title>
+  <meta name="description" content="ゲーミングPCも、ノートPCも、触って選べる7日間。PASOUL POP UP STORE、アクロスモール新鎌ヶ谷で期間限定オープン。2026年7月9日〜7月15日。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Noto+Sans+JP:wght@400;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== MOBILE MENU OVERLAY ===== -->
+  <div id="menu-overlay" class="menu-overlay" aria-hidden="true">
+    <div class="menu-drawer" id="menu-drawer">
+      <div class="menu-drawer__header">
+        <img src="image/pasoul-logo.png" alt="PASOUL" class="menu-drawer__logo">
+        <button class="menu-drawer__close" id="menu-close" aria-label="メニューを閉じる">
+          <svg class="icon icon-lg" viewBox="0 0 24 24" aria-hidden="true">
+            <line x1="6" y1="6" x2="18" y2="18"/><line x1="6" y1="18" x2="18" y2="6"/>
+          </svg>
+        </button>
+      </div>
+      <nav class="menu-drawer__nav">
+        <a href="#b-top" class="menu-drawer__link"><span class="menu-drawer__num">01</span><span>TOP</span><svg class="icon icon-sm" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6l-6 6"/></svg></a>
+        <a href="#b-experience" class="menu-drawer__link"><span class="menu-drawer__num">02</span><span>体験</span><svg class="icon icon-sm" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6l-6 6"/></svg></a>
+        <a href="#b-special" class="menu-drawer__link"><span class="menu-drawer__num">03</span><span>イベント</span><svg class="icon icon-sm" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6l-6 6"/></svg></a>
+        <a href="#b-urgency" class="menu-drawer__link"><span class="menu-drawer__num">04</span><span>開催期間</span><svg class="icon icon-sm" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6l-6 6"/></svg></a>
+        <a href="#b-products" class="menu-drawer__link"><span class="menu-drawer__num">05</span><span>商品ラインナップ</span><svg class="icon icon-sm" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6l-6 6"/></svg></a>
+        <a href="#b-brand" class="menu-drawer__link"><span class="menu-drawer__num">06</span><span>PASOULについて</span><svg class="icon icon-sm" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6l-6 6"/></svg></a>
+        <a href="#b-access" class="menu-drawer__link"><span class="menu-drawer__num">07</span><span>アクセス</span><svg class="icon icon-sm" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6l-6 6"/></svg></a>
+        <a href="#b-faq" class="menu-drawer__link"><span class="menu-drawer__num">08</span><span>よくある質問</span><svg class="icon icon-sm" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6l-6 6"/></svg></a>
+      </nav>
+      <div class="menu-drawer__footer">
+        <a href="https://www.pasoul.jp/" target="_blank" rel="noopener" class="btn btn--dark btn--full">
+          ECサイトへ
+          <svg class="icon icon-sm" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17l9.2-9.2M7 7h10v10"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header">
+    <img src="image/pasoul-logo.png" alt="PASOUL" class="site-header__logo">
+    <button class="site-header__hamburger" id="menu-open" aria-label="メニューを開く">
+      <svg class="icon icon-lg" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M4 6l16 0M4 12l16 0M4 18l16 0"/>
+      </svg>
+    </button>
+    <a href="https://www.pasoul.jp/" target="_blank" rel="noopener" class="site-header__ec-link">
+      ECサイト
+      <svg class="icon icon-sm" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17l9.2-9.2M7 7h10v10"/></svg>
+    </a>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section id="b-top" class="hero">
+    <div class="orb orb--hero-cyan"></div>
+    <div class="orb orb--hero-magenta"></div>
+    <div class="orb orb--hero-violet"></div>
+
+    <div class="hero__products" aria-hidden="true">
+      <img src="image/product-pc-black.png" alt="" class="hero__product hero__product--black">
+      <img src="image/product-pc-white.png" alt="" class="hero__product hero__product--white">
+      <img src="image/product-laptop.png" alt="" class="hero__product hero__product--laptop">
+    </div>
+
+    <div class="hero__content">
+      <div class="venue-badge">
+        <span class="venue-badge__dot"></span>
+        <span class="venue-badge__in">IN</span>
+        <span>アクロスモール新鎌ヶ谷</span>
+      </div>
+
+      <h1 class="hero__title">
+        <span>PASOUL</span>
+        <span>POP UP</span>
+        <span>STORE</span>
+      </h1>
+
+      <p class="hero__sub-title">アクロスモール<br>新鎌ヶ谷で、<br>期間限定オープン。</p>
+      <p class="hero__desc">ゲーミングPCも、ノートPCも、触って選べる7日間。</p>
+
+      <a href="#b-special" class="btn btn--comic">
+        <span class="btn-icon btn-icon--gradient">
+          <svg class="icon icon-md" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M8 21l8 0M12 17l0 4M7 4l10 0M17 4v8a5 5 0 0 1 -10 0v-8M5 9c-1.5 0 -3 -1 -3 -3M19 9c1.5 0 3 -1 3 -3"/>
+          </svg>
+        </span>
+        <span>プロゲーマーとの対戦イベント開催</span>
+        <svg class="icon icon-md" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5l0 14M18 13l-6 6M6 13l6 6"/></svg>
+      </a>
+
+      <a href="#b-products" class="btn btn--crimson">
+        <span class="btn-icon btn-icon--circle">
+          <svg class="icon icon-sm" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M3 19l18 0M5 6m0 1a1 1 0 0 1 1 -1h12a1 1 0 0 1 1 1v8a1 1 0 0 1 -1 1h-12a1 1 0 0 1 -1 -1z"/>
+          </svg>
+        </span>
+        <span>商品ラインナップを見る</span>
+        <svg class="icon icon-md" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5l0 14M18 13l-6 6M6 13l6 6"/></svg>
+      </a>
+
+      <div class="glass-card meta-card">
+        <div class="meta-card__date-row">
+          <div class="mono-label">DATE</div>
+          <div class="meta-card__date">2026.7.9 — 7.15</div>
+          <div class="meta-card__hours">10:00–20:00 · 最終日のみ18:00まで</div>
+        </div>
+        <div class="meta-card__venue-row">
+          <div class="mono-label">VENUE</div>
+          <div class="meta-card__venue-name">アクロスモール新鎌ヶ谷 2F</div>
+          <div class="meta-card__venue-access">新京成・北総・東武野田線「新鎌ヶ谷駅」徒歩5分</div>
+        </div>
+      </div>
+
+      <a href="https://maps.app.goo.gl/Jb2rqqxY9vyeQYZx5" target="_blank" rel="noopener" class="btn btn--gradient btn--full">
+        <svg class="icon icon-md" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 1 7 7c0 5 -7 13 -7 13s-7 -8 -7 -13a7 7 0 0 1 7 -7M12 9m-2.5 0a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0"/></svg>
+        会場までの行き方を見る
+        <svg class="icon icon-md" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l14 0M13 18l6 -6l-6 -6"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section id="b-experience" class="section section--experience">
+    <div class="orb orb--exp-left" aria-hidden="true"></div>
+    <div data-reveal>
+      <div class="section-label"><span class="section-label__num">02</span><span class="section-label__en">EXPERIENCE</span></div>
+      <h2 class="section-title">イベント限定<br>"3つの体験"。</h2>
+      <p class="section-desc">見て、触って、遊ぶ。会場ならではの楽しみ方。</p>
+    </div>
+    <div class="experience-list">
+      <div class="glass-card experience-card" data-reveal data-delay="0">
+        <div class="experience-card__head">
+          <div class="experience-card__icon" style="background:linear-gradient(135deg,#3dd9c6,#8a6cff)">
+            <svg class="icon icon-xl" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 13v-7.5a1.5 1.5 0 0 1 3 0v6.5M11 5.5v-2a1.5 1.5 0 1 1 3 0v8.5M14 5.5a1.5 1.5 0 0 1 3 0v6.5M17 7.5a1.5 1.5 0 0 1 3 0v8.5a6 6 0 0 1 -6 6h-2c-2.4 0 -3 -.5 -4.5 -2l-3 -3l1 -1a3 3 0 0 1 3 -.5l1.5 1.5v-12"/></svg>
+          </div>
+          <div>
+            <div class="experience-card__en">TOUCH · 01</div>
+            <div class="experience-card__jp">触れる</div>
+          </div>
+        </div>
+        <p class="experience-card__desc">ゲーミングもノートも、実機を間近で。Made in Yashioの仕上がりを、自分の目で。</p>
+      </div>
+      <div class="glass-card experience-card" data-reveal data-delay="0.06">
+        <div class="experience-card__head">
+          <div class="experience-card__icon" style="background:linear-gradient(135deg,#8a6cff,#ff5b96)">
+            <svg class="icon icon-xl" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 14v-3a8 8 0 1 1 16 0v3M18 19c0 1.657 -2.686 3 -6 3M4 14a2 2 0 0 1 2 -2h1a2 2 0 0 1 2 2v3a2 2 0 0 1 -2 2h-1a2 2 0 0 1 -2 -2v-3zM15 14a2 2 0 0 1 2 -2h1a2 2 0 0 1 2 2v3a2 2 0 0 1 -2 2h-1a2 2 0 0 1 -2 -2v-3z"/></svg>
+          </div>
+          <div>
+            <div class="experience-card__en">EXPERIENCE · 02</div>
+            <div class="experience-card__jp">体験する</div>
+          </div>
+        </div>
+        <p class="experience-card__desc">ゲーミングチェア×デスク×PCの理想セット。コックピット級の没入感を、その場で。</p>
+      </div>
+      <div class="glass-card experience-card" data-reveal data-delay="0.12">
+        <div class="experience-card__head">
+          <div class="experience-card__icon" style="background:linear-gradient(135deg,#ff5b96,#ffb89c)">
+            <svg class="icon icon-xl" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5h3.5a5 5 0 0 1 0 10h-1.5l-2.5 4l-2.5 -4h-1.5a5 5 0 0 1 0 -10h3.5zM14 10h.01M11 9v2M10 10h2M16 10h.01"/></svg>
+          </div>
+          <div>
+            <div class="experience-card__en">PLAY · 03</div>
+            <div class="experience-card__jp">遊べる</div>
+          </div>
+        </div>
+        <p class="experience-card__desc">定番ゲームをその場でプレイできる"フリーゾーン"を解放。PASOULのゲーミングPCをリアルで触れることができます。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SPECIAL EVENT ===== -->
+  <section id="b-special" class="section section--dark">
+    <div class="orb orb--special-violet" aria-hidden="true"></div>
+    <div class="orb orb--special-magenta" aria-hidden="true"></div>
+    <div data-reveal>
+      <div class="section-label section-label--light"><span class="section-label__num">03</span><span class="section-label__en">SPECIAL EVENT</span></div>
+      <p class="special-sub-label">— 特別開催 —</p>
+      <h2 class="special-title">VS PRO<br>GAMER!!</h2>
+      <p class="special-intro">大人気格闘ゲーム「STREET FIGHTER 6」のプロゲーマーと対戦！</p>
+    </div>
+
+    <div class="glass-card guest-card" data-reveal data-delay="0.1">
+      <div class="guest-card__badge">SPECIAL GUEST</div>
+      <div class="guest-card__profile">
+        <div class="guest-card__name">Meg5 選手</div>
+        <div class="guest-card__title">JeSU公認ライセンス保持<br>ANSWER.M.GAMING 所属</div>
+      </div>
+      <div class="guest-card__photo">
+        <img src="image/meg5.png" alt="Meg5 選手">
+      </div>
+      <p class="guest-card__bio">ANSWER.M.GAMING所属プロゲーマー「Meg5」さんをゲストでお呼びし、対戦体験会を実施いたします。国内トップシーンで戦うプロ選手と対戦できるチャンス！ぜひご来場ください。</p>
+    </div>
+
+    <div class="glass-card special-details-card" data-reveal data-delay="0.15">
+      <div class="special-detail">
+        <div class="special-detail__icon">
+          <svg class="icon icon-md" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-16a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2M16 3v4M8 3v4M4 11h16M8 15h2v2h-2z"/></svg>
+        </div>
+        <div>
+          <div class="special-detail__label">開催日</div>
+          <div class="special-detail__value">土日両日（時間詳細は調整中）</div>
+        </div>
+      </div>
+      <div class="special-detail">
+        <div class="special-detail__icon">
+          <svg class="icon icon-md" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l0 2M15 11l0 2M15 17l0 2M5 5h14a2 2 0 0 1 2 2v3a2 2 0 0 0 0 4v3a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-3a2 2 0 0 0 0 -4v-3a2 2 0 0 1 2 -2"/></svg>
+        </div>
+        <div>
+          <div class="special-detail__label">参加方法</div>
+          <div class="special-detail__value">先着受付 / 整理券制</div>
+        </div>
+      </div>
+      <div class="special-detail special-detail--last">
+        <div class="special-detail__icon">
+          <svg class="icon icon-md" viewBox="0 0 24 24" aria-hidden="true"><path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0M21 12c-2.4 4 -5.4 6 -9 6c-3.6 0 -6.6 -2 -9 -6c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6"/></svg>
+        </div>
+        <div>
+          <div class="special-detail__label">観戦</div>
+          <div class="special-detail__value">見るだけでもOK</div>
+        </div>
+      </div>
+    </div>
+
+    <a href="https://x.com/Meg5_sf6?lang=ja" target="_blank" rel="noopener" class="btn btn--ghost-white btn--full">
+      <svg class="icon icon-sm" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4l11.733 16h4.267l-11.733 -16zM4 20l6.768 -6.768M20 4l-6.768 6.768"/></svg>
+      Meg5選手の最新情報を見る
+    </a>
+  </section>
+
+  <!-- ===== URGENCY / COUNTDOWN ===== -->
+  <section id="b-urgency" class="section section--urgency">
+    <div data-reveal>
+      <div class="section-label"><span class="section-label__num">04</span><span class="section-label__en">URGENCY</span></div>
+      <h2 class="section-title">7日間だけの、特設会場。</h2>
+      <p class="section-desc">鎌ヶ谷・新鎌ヶ谷エリア、PASOUL初上陸。</p>
+    </div>
+    <div class="countdown-wrap" data-reveal data-delay="0.08">
+      <div class="countdown-inner">
+        <div class="mono-label countdown-heading">OPENING DAY まで</div>
+        <div class="countdown-digits">
+          <div class="countdown-unit">
+            <div class="countdown-num" id="cd-days">--</div>
+            <div class="countdown-label">DAYS</div>
+          </div>
+          <div class="countdown-unit">
+            <div class="countdown-num" id="cd-hours">--</div>
+            <div class="countdown-label">HOURS</div>
+          </div>
+          <div class="countdown-unit">
+            <div class="countdown-num" id="cd-mins">--</div>
+            <div class="countdown-label">MIN</div>
+          </div>
+          <div class="countdown-unit">
+            <div class="countdown-num" id="cd-secs">--</div>
+            <div class="countdown-label">SEC</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRODUCTS ===== -->
+  <section id="b-products" class="section section--products">
+    <div class="orb orb--prod-pink" aria-hidden="true"></div>
+    <div class="orb orb--prod-teal" aria-hidden="true"></div>
+    <div data-reveal>
+      <div class="section-label"><span class="section-label__num">05</span><span class="section-label__en">PRODUCTS</span></div>
+      <h2 class="section-title">会場で出会えるPC</h2>
+      <p class="section-desc">ハイエンドからノートまで、実機を展示・販売。</p>
+    </div>
+
+    <div class="products-grid">
+
+      <!-- Product 0: PASOUL 極 GP-V3 (tower-big, cyan) -->
+      <div class="glass-card product-card" data-reveal data-delay="0">
+        <div class="product-card__art product-card__art--0">
+          <svg viewBox="0 0 120 100" width="100%" height="100%" aria-hidden="true">
+            <defs>
+              <linearGradient id="pg0" x1="0" x2="1" y1="0" y2="1">
+                <stop offset="0%" stop-color="#3dd9c6"/>
+                <stop offset="100%" stop-color="#9d7fe8"/>
+              </linearGradient>
+            </defs>
+            <rect x="32" y="8" width="56" height="86" rx="4" fill="#0d0d12"/>
+            <rect x="38" y="14" width="44" height="32" rx="2" fill="url(#pg0)"/>
+            <circle cx="60" cy="62" r="13" fill="none" stroke="#3dd9c6" stroke-width="2.5"/>
+            <circle cx="60" cy="62" r="5" fill="#9d7fe8"/>
+            <rect x="38" y="82" width="44" height="3" rx="1.5" fill="#3dd9c6" opacity="0.7"/>
+            <rect x="38" y="88" width="28" height="3" rx="1.5" fill="#3dd9c6" opacity="0.4"/>
+          </svg>
+        </div>
+        <span class="product-card__tag">極シリーズ</span>
+        <div class="product-card__name">PASOUL 極<br>GP-V3 ホワイト</div>
+        <div class="product-card__specs">RTX5060 / Ryzen5 5600GT</div>
+        <div class="product-card__price"><span class="product-card__price-num">¥192,000</span><span class="product-card__price-label">税込</span></div>
+      </div>
+
+      <!-- Product 1: PASOUL 煌 GMQ360 (tower-mid, magenta) -->
+      <div class="glass-card product-card" data-reveal data-delay="0.05">
+        <div class="product-card__art product-card__art--1">
+          <svg viewBox="0 0 120 100" width="100%" height="100%" aria-hidden="true">
+            <defs>
+              <linearGradient id="pg1" x1="0" x2="1" y1="0" y2="1">
+                <stop offset="0%" stop-color="#ff5b96"/>
+                <stop offset="100%" stop-color="#f472b6"/>
+              </linearGradient>
+            </defs>
+            <rect x="36" y="12" width="48" height="80" rx="4" fill="#fafaf6" stroke="#dcdcd2"/>
+            <rect x="42" y="20" width="36" height="22" rx="2" fill="#0a0a0f"/>
+            <circle cx="60" cy="58" r="11" fill="none" stroke="#ff5b96" stroke-width="2.5"/>
+            <circle cx="60" cy="58" r="4" fill="url(#pg1)"/>
+            <rect x="42" y="78" width="36" height="3" rx="1.5" fill="#ff5b96" opacity="0.7"/>
+          </svg>
+        </div>
+        <span class="product-card__tag">煌シリーズ</span>
+        <div class="product-card__name">PASOUL 煌<br>海景房 GMQ360</div>
+        <div class="product-card__specs">RTX2060 / Ryzen5 5600GT</div>
+        <div class="product-card__price"><span class="product-card__price-num">¥134,000</span><span class="product-card__price-label">税込</span></div>
+      </div>
+
+      <!-- Product 2: PASOUL S2 G-SLIM (tower-slim, peach) -->
+      <div class="glass-card product-card" data-reveal data-delay="0.10">
+        <div class="product-card__art product-card__art--2">
+          <svg viewBox="0 0 120 100" width="100%" height="100%" aria-hidden="true">
+            <defs>
+              <linearGradient id="pg2" x1="0" x2="1" y1="0" y2="1">
+                <stop offset="0%" stop-color="#ffb89c"/>
+                <stop offset="100%" stop-color="#fbbf24"/>
+              </linearGradient>
+            </defs>
+            <rect x="44" y="14" width="32" height="76" rx="3" fill="#15151a"/>
+            <rect x="50" y="22" width="20" height="8" rx="1" fill="url(#pg2)"/>
+            <circle cx="60" cy="44" r="9" fill="none" stroke="#ffb89c" stroke-width="2"/>
+            <circle cx="60" cy="44" r="3" fill="#fbbf24"/>
+            <rect x="50" y="62" width="20" height="3" rx="1.5" fill="#ffb89c" opacity="0.5"/>
+            <rect x="50" y="68" width="14" height="3" rx="1.5" fill="#ffb89c" opacity="0.3"/>
+          </svg>
+        </div>
+        <span class="product-card__tag">スタンダード</span>
+        <div class="product-card__name">PASOUL S2<br>G-SLIM</div>
+        <div class="product-card__specs">Corei7 14700F / Radeon HD7670</div>
+        <div class="product-card__price"><span class="product-card__price-tbd">価格 要確認</span></div>
+      </div>
+
+      <!-- Product 3: PASOUL NC14J (laptop, violet) -->
+      <div class="glass-card product-card" data-reveal data-delay="0.15">
+        <div class="product-card__art product-card__art--3">
+          <svg viewBox="0 0 120 100" width="100%" height="100%" aria-hidden="true">
+            <defs>
+              <linearGradient id="pg3" x1="0" x2="1" y1="0" y2="1">
+                <stop offset="0%" stop-color="#8a6cff"/>
+                <stop offset="100%" stop-color="#60a5fa"/>
+              </linearGradient>
+            </defs>
+            <rect x="20" y="22" width="80" height="48" rx="2" fill="#1a1a1f"/>
+            <rect x="24" y="26" width="72" height="40" rx="1" fill="url(#pg3)" opacity="0.85"/>
+            <path d="M14 72 L106 72 L100 82 L20 82 Z" fill="#222226"/>
+            <rect x="54" y="73" width="12" height="2" rx="1" fill="#0a0a0f"/>
+          </svg>
+        </div>
+        <span class="product-card__tag">ノートPC</span>
+        <div class="product-card__name">PASOUL NC14J<br>14インチ</div>
+        <div class="product-card__specs">Pentium GOLD / 6500Y</div>
+        <div class="product-card__price"><span class="product-card__price-tbd">価格 要確認</span></div>
+      </div>
+    </div>
+
+    <div class="glass-card purchase-info">
+      <div class="purchase-info__title">気に入ったら、その場で。</div>
+      <div class="purchase-info__row">
+        <svg class="icon icon-sm" style="color:var(--violet)" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 19l18 0M5 6m0 1a1 1 0 0 1 1 -1h12a1 1 0 0 1 1 1v8a1 1 0 0 1 -1 1h-12a1 1 0 0 1 -1 -1z"/></svg>
+        ノートPC … その場で購入・お持ち帰り可
+      </div>
+      <div class="purchase-info__row">
+        <svg class="icon icon-sm" style="color:var(--magenta)" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1v-10zM7 20h10M9 16l0 4M15 16l0 4"/></svg>
+        ゲーミングPC … その場で決済 → 後日発送
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BRAND ===== -->
+  <section id="b-brand" class="section section--brand">
+    <div class="orb orb--brand-cyan" aria-hidden="true"></div>
+    <div data-reveal>
+      <div class="section-label"><span class="section-label__num">06</span><span class="section-label__en">BRAND</span></div>
+      <h2 class="section-title">PASOULのこだわり、<br>国内自社組立。</h2>
+    </div>
+    <div class="brand-made-in" data-reveal data-delay="0.08">MADE IN<br>YASHIO.</div>
+    <p class="brand-lead" data-reveal data-delay="0.08">驚きのコスパと安心品質を叶える、PASOULのこだわり。</p>
+    <div class="brand-points">
+      <div class="glass-card brand-point" data-reveal data-delay="0.08">
+        <div class="brand-point__icon">
+          <svg class="icon icon-xl" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 21h4l13 -13a1.5 1.5 0 0 0 -4 -4l-13 13v4M14.5 5.5l4 4M12 8l-5 -5l-4 4l5 5M7 8l-1.5 1.5M16 12l5 5l-4 4l-5 -5M16 17l-1.5 1.5"/></svg>
+        </div>
+        <div>
+          <div class="brand-point__title">Made in Yashio</div>
+          <div class="brand-point__desc">埼玉県八潮市の自社工場で1台ずつ組み立て</div>
+        </div>
+      </div>
+      <div class="glass-card brand-point" data-reveal data-delay="0.13">
+        <div class="brand-point__icon">
+          <svg class="icon icon-xl" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12a9 9 0 1 1 -18 0a9 9 0 0 1 18 0zM14.8 9a2 2 0 0 0 -1.8 -1h-2a2 2 0 1 0 0 4h2a2 2 0 1 1 0 4h-2a2 2 0 0 1 -1.8 -1M12 7v10"/></svg>
+        </div>
+        <div>
+          <div class="brand-point__title">直販で最大30%のコスパ</div>
+          <div class="brand-point__desc">中間マージン徹底削減</div>
+        </div>
+      </div>
+      <div class="glass-card brand-point" data-reveal data-delay="0.18">
+        <div class="brand-point__icon">
+          <svg class="icon icon-xl" viewBox="0 0 24 24" aria-hidden="true"><path d="M10.325 4.317c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756 .426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543 -.826 3.31 -2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"/></svg>
+        </div>
+        <div>
+          <div class="brand-point__title">完全カスタマイズ対応</div>
+          <div class="brand-point__desc">用途に合わせて1台ずつ設計</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ACCESS ===== -->
+  <section id="b-access" class="section section--access">
+    <div data-reveal>
+      <div class="section-label"><span class="section-label__num">07</span><span class="section-label__en">ACCESS</span></div>
+      <h2 class="section-title">アクセス・営業時間</h2>
+    </div>
+    <div class="map-wrap" data-reveal data-delay="0.08">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2659.378731021317!2d140.001294!3d35.780986999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018821e36fcae0f%3A0x936a0b676184e6cc!2z44Ki44Kv44Ot44K544Oi44O844Or5paw6Y6M44O26LC3!5e0!3m2!1sja!2sjp!4v1779932605680!5m2!1sja!2sjp"
+        width="100%" height="240"
+        style="border:0;display:block"
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        title="アクロスモール新鎌ヶ谷 地図"></iframe>
+    </div>
+    <div class="glass-card access-card">
+      <div class="access-card__name">アクロスモール新鎌ヶ谷 2F</div>
+      <div class="access-card__address">千葉県鎌ケ谷市新鎌ケ谷2-12-1</div>
+      <div class="access-card__row">
+        <svg class="icon icon-sm" style="color:var(--violet)" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 13c0 3.527 -.61 5 -9 5c-8.39 0 -9 -1.473 -9 -5v-6c0 -3.483 1.117 -5 9 -5s9 1.517 9 5v6zM3 13l18 0M9 18l-2 3M15 18l2 3M11 7l2 0M9 10a1 1 0 1 0 -2 0a1 1 0 0 0 2 0M17 10a1 1 0 1 0 -2 0a1 1 0 0 0 2 0"/></svg>
+        「新鎌ヶ谷駅」徒歩5分
+      </div>
+      <div class="access-card__row">
+        <svg class="icon icon-sm" style="color:var(--magenta)" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0M12 7v5l3 3"/></svg>
+        10:00 - 20:00（最終日のみ18:00まで）
+      </div>
+    </div>
+    <a href="https://maps.app.goo.gl/Jb2rqqxY9vyeQYZx5" target="_blank" rel="noopener" class="btn btn--gradient btn--full">
+      <svg class="icon icon-md" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 1 7 7c0 5 -7 13 -7 13s-7 -8 -7 -13a7 7 0 0 1 7 -7M12 9m-2.5 0a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0"/></svg>
+      地図アプリで開く
+    </a>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section id="b-faq" class="section section--faq">
+    <div data-reveal>
+      <div class="section-label"><span class="section-label__num">08</span><span class="section-label__en">FAQ</span></div>
+      <h2 class="section-title">よくある質問</h2>
+    </div>
+    <div class="glass-card faq-list">
+      <div class="faq-item faq-item--open">
+        <button class="faq-item__q" aria-expanded="true">
+          <span><span class="faq-item__q-marker">Q.</span>入場は無料ですか？</span>
+          <span class="faq-item__toggle" aria-hidden="true">
+            <svg class="icon icon-sm" viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </span>
+        </button>
+        <div class="faq-item__a"><span class="faq-item__a-marker">A.</span>はい、入場は無料です。どなたでも自由にご来場いただけます。実機の試遊・体験も追加料金なしでお楽しみいただけます。</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-item__q" aria-expanded="false">
+          <span><span class="faq-item__q-marker">Q.</span>子ども連れでもOK？</span>
+          <span class="faq-item__toggle" aria-hidden="true">
+            <svg class="icon icon-sm" viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </span>
+        </button>
+        <div class="faq-item__a"><span class="faq-item__a-marker">A.</span>もちろんOKです。フリープレイゾーンでは、年齢を問わずどなたでもゲームをお楽しみいただけます。お子様向けのタイトルもご用意しています。</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-item__q" aria-expanded="false">
+          <span><span class="faq-item__q-marker">Q.</span>Meg5選手との対戦、どうすれば参加できる？</span>
+          <span class="faq-item__toggle" aria-hidden="true">
+            <svg class="icon icon-sm" viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </span>
+        </button>
+        <div class="faq-item__a"><span class="faq-item__a-marker">A.</span>土日両日、会場にて整理券を先着順で配布します。配布時間の詳細は決まり次第、公式SNSにてお知らせいたします。</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-item__q" aria-expanded="false">
+          <span><span class="faq-item__q-marker">Q.</span>PCはその場で買えますか？</span>
+          <span class="faq-item__toggle" aria-hidden="true">
+            <svg class="icon icon-sm" viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </span>
+        </button>
+        <div class="faq-item__a"><span class="faq-item__a-marker">A.</span>ノートPCは在庫がある限りお持ち帰り可能です。ゲーミングPCはその場でご決済いただいた後、後日ご自宅へ発送いたします。</div>
+      </div>
+      <div class="faq-item faq-item--last">
+        <button class="faq-item__q" aria-expanded="false">
+          <span><span class="faq-item__q-marker">Q.</span>駐車場はありますか？</span>
+          <span class="faq-item__toggle" aria-hidden="true">
+            <svg class="icon icon-sm" viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </span>
+        </button>
+        <div class="faq-item__a"><span class="faq-item__a-marker">A.</span>アクロスモール新鎌ヶ谷の駐車場をご利用いただけます。一定金額以上のお買い物で駐車料金が無料になります（モールの規定に準拠）。</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER CTA ===== -->
+  <footer class="footer-cta">
+    <div class="orb orb--footer-cyan" aria-hidden="true"></div>
+    <div class="orb orb--footer-magenta" aria-hidden="true"></div>
+    <div class="footer-cta__inner">
+      <p class="footer-cta__eyebrow">SEE YOU AT THE STORE</p>
+      <h2 class="footer-cta__title">
+        この夏を、全力で。<br>
+        <span class="footer-cta__title--gradient">自分だけの"一台"を。</span>
+      </h2>
+      <p class="footer-cta__meta">2026.7.9(木) - 7.15(水)<br>アクロスモール新鎌ヶ谷 2F</p>
+      <a href="https://maps.app.goo.gl/Jb2rqqxY9vyeQYZx5" target="_blank" rel="noopener" class="btn btn--gradient btn--full footer-cta__map-btn">
+        <svg class="icon icon-md" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 1 7 7c0 5 -7 13 -7 13s-7 -8 -7 -13a7 7 0 0 1 7 -7M12 9m-2.5 0a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0"/></svg>
+        地図を開く
+      </a>
+      <div class="footer-cta__social">
+        <a href="https://x.com/pasoulpc" target="_blank" rel="noopener" class="social-btn" aria-label="X (Twitter)">
+          <svg class="icon icon-md" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4l11.733 16h4.267l-11.733 -16zM4 20l6.768 -6.768M20 4l-6.768 6.768"/></svg>
+        </a>
+        <a href="https://www.instagram.com/pasoulpc/" target="_blank" rel="noopener" class="social-btn" aria-label="Instagram">
+          <svg class="icon icon-md" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4zM9 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0M16 7.5a0.5 0.5 0 1 0 1 0a0.5 0.5 0 1 0 -1 0"/></svg>
+        </a>
+        <button class="social-btn" id="share-btn" aria-label="シェア">
+          <svg class="icon icon-md" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0M15 6a3 3 0 1 0 6 0a3 3 0 1 0 -6 0M15 18a3 3 0 1 0 6 0a3 3 0 1 0 -6 0M8.7 10.7l6.6 -3.4M8.7 13.3l6.6 3.4"/></svg>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== STICKY BOTTOM BAR ===== -->
+  <div class="sticky-bar">
+    <div class="sticky-bar__info">
+      <div class="sticky-bar__date">7.9 — 7.15</div>
+      <div class="sticky-bar__venue">アクロスモール新鎌ヶ谷</div>
+    </div>
+    <a href="https://maps.app.goo.gl/Jb2rqqxY9vyeQYZx5" target="_blank" rel="noopener" class="btn btn--gradient-pill">
+      <svg class="icon icon-sm" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 1 7 7c0 5 -7 13 -7 13s-7 -8 -7 -13a7 7 0 0 1 7 -7M12 9m-2.5 0a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0"/></svg>
+      地図を開く
+    </a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
